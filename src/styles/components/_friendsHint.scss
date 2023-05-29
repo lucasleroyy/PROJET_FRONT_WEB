@@ -1,9 +1,10 @@
 .get-friends-container {
   width: 356px;
-  background: linear-gradient(145deg, $color-2 30%, #ffe1d9 100%);
+  background: linear-gradient(145deg, $color-2 10%, #ffe1d9 100%), url(IMG_8664.JPG); 
+  background-size: cover; 
+  background-position: center;  
   border-radius: 20px;
   padding: 20px 20px 10px;
-
   h4 {
     font-size: 1.4rem;
     color: $color-3;
@@ -14,7 +15,7 @@
     text-align: center;
     i {
       font-size: 1.6rem;
-      color: $color-3;
+      color: #ffffff;
     }
   }
   ul {
@@ -43,16 +44,16 @@
         text-align: right;
 
         button {
-          background: $color-1;
-          color: $color-4;
+          color:  #F5F5DC;  
+    background:  #0000A0;
           padding: 10px 24px 8px;
           transition: 0.2s;
           border-radius: 20px;
           font-size: 0.9rem;
 
           &:hover {
-            background: $color-4;
-            color: $color-1;
+            background: #F5F5DC;  
+    color: #0000A0;
           }
         }
       }

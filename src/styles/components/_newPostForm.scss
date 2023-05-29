@@ -3,7 +3,10 @@
   padding: 16px 40px;
   border-radius: 20px;
   position: relative;
-  background: $color-4;
+  background-image: url(IMG_8662.JPG);  
+  background-size: cover; 
+  background-repeat: no-repeat;   
+  background-position: center;  
 
   i {
     font-size: 1.5rem;
@@ -161,19 +164,23 @@
         color: red;
       }
       .btn-send {
-        .cancel {
+        .cancel, .send {
           border-radius: 20px;
           margin-right: 8px;
-          background: $white;
+          background: #F5F5DC;
+          color: #ffffff;
+         
 
           &:hover {
-            color: $color-4;
-            background: $color-3;
+            color: #ffffff;
+            background: #0000A0;
           }
         }
         .send {
           &:hover {
             letter-spacing: 2px;
+            background: #ffffff;  
+            color: #0000A0;;
           }
         }
         button {
